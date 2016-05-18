@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+<head>
+  <title><ui:insert name="title">Default title</ui:insert></title>
+   <link rel="stylesheet" href="/Festival/css/main.css" />
+</head>
+
+<body>
+<ui:debug hotkey="x" rendered="#{initParam['javax.faces.FACELETS_DEVELOPMENT']}"/>
+
+<div id="content">
+  <ui:insert name="content">
+	  	 <div class="video-container"> 
+    	 <iframe src="https://www.youtube.com/embed/U8BA9f73TII?modestbranding=1&rel=0&showinfo=0&autoplay=1&controls=0&loop=1&iv_load_policy=3" 
+    	 frameborder="0" allowfullscreen=1></iframe>
+    	 <div class="view-artists-container">
+    	 	<div class="view-artists-info text-center">
+    	 		<h1 class="text-white text-lg">
+    	 			Momentuum Festival
+    	 		</h1>
+    	 		<a href="/Festival/home" class="call-to-action">View Artists</a>
+    	 	</div> 
+    	 </div> 
+    	 </div>
+  </ui:insert>
+</div>
+</body>
+
+</html>

@@ -1,0 +1,175 @@
+@CHARSET "ISO-8859-1";
+
+html{
+	min-height: 100%;
+	position: relative;
+} 
+body {
+	height:100%;
+	
+}
+
+.video-container {
+	position: relative;
+    padding-bottom: 64.25%;
+    padding-top: 0px;
+    height: 0;
+    overflow: hidden;
+    z-index: 20;
+}
+
+.video-container iframe {
+	position: absolute;
+    top: -100px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -10;
+}
+
+.view-artists-container {
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-align: stretch;
+    align-items: stretch;
+    height: 65vh;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+.view-artists-info {
+	width: 100%;
+	height: 260px;
+}
+
+.text-center {
+	text-align: center !important;
+}
+
+.text-white {
+	color: #ffffff !important;
+	font-family: "Knockout-HTF29-JuniorLiteweight", "Impact", sans-serif;
+}
+
+.text-lg {
+	font-size: 4.3125rem !important;
+}
+
+a.call-to-action {
+	color: #fff;
+    font-size: 34px;
+    display: inline-block;
+    text-decoration: none;
+    font-family: "Knockout-HTF29-JuniorLiteweight", "Impact", sans-serif;
+    border-radius: 5px;
+    border: 2px solid #ffffff;
+    padding: 7px 20px 5px;
+    transition: 0.25s linear;
+}
+
+a.call-to-action:hover {
+    text-decoration: none;
+    background: #800080;
+}
+
+.main-content {
+	background-color: #393a3a;
+	position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    overflow:scroll;
+}
+
+
+.artists {
+	width: 900px;
+	margin: 0 auto;
+}
+
+.artists h3 {
+	bottom: 0;
+	background-color: rgba(57, 57, 57, 0.8);
+	margin-top: -65px;
+	padding: 0.71429em 0 2.71429em 1em;
+	color: #ffffff;
+}
+
+div.even {
+	float: right;
+}
+
+
+.img-responsive {
+	width: 355px;
+	height: 364px;
+	background-position: center;
+	background-size: cover; 
+}
+
+.ui-widget-header {
+            background: #cedc98;
+            border: 1px solid #DDDDDD;
+            color: #333333;
+            font-weight: bold;
+}
+
+.donation-content {
+	background-color: #393a3a;
+	position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    overflow:scroll;
+}
+
+.donate {
+	width: 900px;
+	margin: 0 auto;
+	margin-top: 150px;
+}
+
+.content-type {
+	margin-left: 25%;
+	margin-bottom: 50px;
+}
+
+#mainHeader {
+	color: #ffffff;
+}
+
+input[type=submit] {
+	padding: 10px 20px 11px !important;
+	font-size: 21px !important;
+	background-color: #F36C8C;
+	font-weight: bold;
+	text-shadow: 1px 1px #F36C8C;
+	color: #ffffff;
+	border-radius: 100px;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border: 1px solid #F36C8C;
+	cursor: pointer;
+	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+	margin-top: 30px;
+}
+
+progress[value] {
+    border-radius: 2px; 
+    background-size: 35px 20px, 100% 100%, 100% 100%;
+    width: 400px;
+    height: 30px;
+}
+
+
+
+
+
+
+
+
+
